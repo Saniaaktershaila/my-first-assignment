@@ -436,3 +436,20 @@ body {
   margin: 0 auto 30px;
   line-height: 1.5;
 }
+.footerbox .menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footerbox .menu a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footerbox .menu a:hover {
+  color: #5f5cf0;
+}
